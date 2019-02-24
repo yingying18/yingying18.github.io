@@ -1,0 +1,87 @@
+/* the border of the form */
+#formWrap {
+    width: 720px;
+    margin-left: 75px;
+    border: 1px solid #F1F1F1;
+    -moz-border-radius: 20px;
+    -moz-box-shadow: 2px 2px 5px #999;
+    -webkit-border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 5px #999;
+    padding: 16px 10px 40px;
+}
+
+/* separation of text boxes lines */
+#formWrap #form {
+    border-top: 1px solid #EEE;
+    width: 720px;
+}
+
+/* text spacing of input names and text boxes */
+#form .row {
+    border-bottom: 1px dotted #EEE;
+    display: block;
+    line-height: 38px;
+    overflow: auto;
+    padding: 10.2px 0px;
+    width: 100%;
+}
+
+/* input name and text boxes styling and alignment*/
+#form .row .label {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 180px;
+    text-align: right;
+    float: left;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+/* input styling in text boxes */
+#form .row .input {
+    float: left;
+    margin-right: 10px;
+    width: auto;
+}
+
+/* Text boxes size of name and email */
+.detail {
+    width: 260px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 4px 8px;
+    margin: 0;
+    display: block;
+}
+
+/* Comment box size */
+.comm {
+    width: 370px;
+    max-width: 450px;
+    height: 150px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 7px 8px;
+    line-height: 1em;
+    margin: 0;
+}
+
+/* submit button */
+#form #submit {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-left: 200px;
+    color: #000;
+    text-shadow: 1px 1px 1px #999;
+    padding: 5px;
+}
+
+span.error {
+    color: maroon;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-bottom: -10px;
+}
